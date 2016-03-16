@@ -133,7 +133,7 @@ namespace Assignment1_Age_Calculator
         {
             CalculateBirthDays obj = new CalculateBirthDays();
 
-            Console.WriteLine("Please enter Number of Siblings:");
+            Console.WriteLine("Please Enter Number of Siblings:");
             obj.getSiblings();
             ArrayList allDateOfBirths = obj.setSiblingsDOB();
             obj.CaclulateTotalDays(allDateOfBirths);
